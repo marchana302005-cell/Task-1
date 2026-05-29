@@ -1,20 +1,21 @@
-Cybersecurity-Task1:
+#Cybersecurity-Task1
 
-Objective:
+##Objective
 
 To discover open ports on devices in the local network and understand network exposure using Nmap.
 
-Tools Used:
+##Tools Used
 Nmap 7.99
 Windows Command Prompt
-Network Information
+##Network Information
 IPv4 Address: 192.168.31.72
 Network Range: 192.168.31.72/24
-Commands Used: 
+
+##Commands Used
 nmap -sS 192.168.31.72/24
 nmap -sS 192.168.31.72/24 -oN scan_results.txt
 
-Results: 
+##Results
 Scanned 256 IP addresses.
 
 Found 9 active hosts.
@@ -30,13 +31,13 @@ Open ports on local desktop included:
 3306 MySQL
 55555 Unknown
 
-Security Risks: 
+##Security Risks
 Open ports can expose network services to attackers.
 SMB-related ports (139 and 445) should be monitored carefully.
 Database services such as MySQL should be protected using strong authentication.
 Firewalls should be configured to restrict unnecessary access.
 
-Outcome: 
+##Outcome
 know network reconnaissance.
 Performed TCP SYN scanning using Nmap.
 Identified active hosts and open ports.
