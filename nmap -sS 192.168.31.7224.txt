@@ -1,0 +1,52 @@
+C:\Users\march>nmap -sS 192.168.31.72/24
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-29 17:33 +0530
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.019s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 44:FA:66:8C:9A:04 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for SetTopBox-8920.lan (192.168.31.26)
+Host is up (0.0092s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: 34:D8:56:D4:72:DF (Shenzhen Skyworth Digital  Technology)
+
+Nmap scan report for chuangmi_camera_026c05.lan (192.168.31.34)
+Host is up (0.0094s latency).
+All 1000 scanned ports on chuangmi_camera_026c05.lan (192.168.31.34) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 60:7E:A4:CD:CD:63 (Shanghai Imilab TechnologyLtd)
+
+Nmap scan report for OnePlus-Nord2-5G.lan (192.168.31.114)
+Host is up (0.019s latency).
+All 1000 scanned ports on OnePlus-Nord2-5G.lan (192.168.31.114) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3A:D4:00:9E:5B:D0 (Unknown)
+
+Nmap scan report for realme-P1-5G.lan (192.168.31.182)
+Host is up (0.015s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: 26:88:35:1B:84:E5 (Unknown)
+
+Nmap scan report for DESKTOP-L0A2E6E.lan (192.168.31.72)
+Host is up (0.00058s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1521/tcp open  oracle
+3306/tcp open  mysql
+8080/tcp open  http-proxy
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 44.88 seconds
